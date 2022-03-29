@@ -5,14 +5,15 @@ body {
   background-position: 1px 330px;
   background-size: cover;
   font-family: "Raleway", sans-serif;
-  color: aliceblue;
+  color: hsl(243, 100%, 93%);
+  font-size: 14px;
 }
 
 .caixa-1 {
   position: absolute;
   top: 240px;
   left: 250px;
-  width: 280px;
+  width: 270px;
   height: 100px;
   background: hsl(228, 56%, 26%);
   border-radius: 10px;
@@ -22,15 +23,16 @@ body {
 
 .logo {
   width: 40%;
+  display: block;
 }
 
-.caixa-2 {
+.logos-menores {
   display: flex;
   margin-top: 30px;
   /* align-items: flex-end; */
 }
 
-.caixa-3 {
+.caixa-2 {
   background: hsl(229, 57%, 11%);
   width: 40px;
   height: 32px;
@@ -40,8 +42,84 @@ body {
   padding-top: 8px;
 }
 
-.logo {
-  display: block;
+.caixa-3 {
+  position: absolute;
+  top: 26px;
+  left: 355px;
+  width: 560px;
+  height: 130px;
+  background: hsl(228, 56%, 26%);
+  border-radius: 10px;
+}
+
+.armazenamento-usado {
+  padding-top: 2em;
+  padding-left: 2em;
+}
+
+.armazenamento-usado b {
+  font-weight: bold;
+}
+
+.barra-de-progresso {
+  height: 10px;
+  padding: 5px;
+  margin: 15px 40px 0px 30px;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 10px;
+  display: flex;
+}
+
+.barra-de-progresso::before {
+  content: "";
+  width: 80%;
+  background-image: linear-gradient(to right, #95e1d3, #ff75a0);
+  border-radius: 10px;
+}
+
+.contagem-armazenamento {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 40px 0px 30px;
+}
+
+.balao {
+  background: #fefefe;
+  border-radius: 8px;
+  width: 180px;
+  height: 70px;
+  position: absolute;
+  top: -30px;
+  left: 690px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.balao:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 20px solid transparent;
+  border-right: 0 solid transparent;
+  border-top: 20px solid #fefefe;
+  bottom: -12px;
+  right: 0%;
+}
+
+#texto-1 {
+  color: hsl(229, 57%, 11%);
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.texto-2 {
+  color: hsl(242, 19%, 71%);
+  font-size: 14px;
 }
 
 .attribution {
