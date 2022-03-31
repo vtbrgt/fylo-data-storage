@@ -3,53 +3,58 @@ body {
   background-image: url("imagens/bg-desktop.png");
   background-repeat: no-repeat;
   background-position: 1px 330px;
-  background-size: cover;
+  background-size: 100% auto;
   font-family: "Raleway", sans-serif;
   color: hsl(243, 100%, 93%);
   font-size: 14px;
 }
 
+.container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
 .caixa-1 {
-  position: absolute;
-  top: 240px;
-  left: 250px;
-  width: 270px;
-  height: 100px;
+  width: 260px;
+  height: 125px;
   background: hsl(228, 56%, 26%);
   border-radius: 10px;
   border-top-right-radius: 100px;
   padding: 2em;
+  padding-left: 40px;
 }
 
 .logo {
-  width: 40%;
+  width: 50%;
   display: block;
 }
 
 .logos-menores {
   display: flex;
-  margin-top: 30px;
-  /* align-items: flex-end; */
+  margin-top: 35px;
 }
 
 .caixa-2 {
   background: hsl(229, 57%, 11%);
-  width: 40px;
-  height: 32px;
+  width: 45px;
+  height: 45px;
   margin-right: 15px;
   border-radius: 8px;
-  text-align: center;
-  padding-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .caixa-3 {
-  position: absolute;
-  top: 26px;
-  left: 355px;
   width: 560px;
   height: 130px;
   background: hsl(228, 56%, 26%);
   border-radius: 10px;
+  margin-top: 50px;
 }
 
 .armazenamento-usado {
@@ -77,10 +82,18 @@ body {
   border-radius: 10px;
 }
 
+.circulo {
+  background: #fefefe;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
 .contagem-armazenamento {
   display: flex;
   justify-content: space-between;
   margin: 10px 40px 0px 30px;
+  font-weight: bold;
 }
 
 .balao {
@@ -89,8 +102,8 @@ body {
   width: 180px;
   height: 70px;
   position: absolute;
-  top: -30px;
-  left: 690px;
+  top: 240px;
+  left: 980px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -112,7 +125,7 @@ body {
 
 #texto-1 {
   color: hsl(229, 57%, 11%);
-  font-size: 28px;
+  font-size: 35px;
   font-weight: bold;
   margin-right: 5px;
 }
@@ -122,10 +135,49 @@ body {
   font-size: 14px;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
+/* -----MOBILE----- */
+@media (max-width: 376px) {
+  body {
+    background-image: url("imagens/bg-mobile.png");
+    background-repeat: space;
+    background-position: top;
+    background-size: cover;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .caixa-3 {
+    width: 272px;
+    padding: 2em;
+    margin-top: -10px;
+  }
+
+  .armazenamento-usado {
+    padding: 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  .barra-de-progresso {
+    margin: 25px 15px 0px 15px;
+  }
+
+  .contagem-armazenamento {
+    margin: 10px 20px 0px 20px;
+  }
+
+  .balao {
+    top: 445px;
+    left: 90px;
+  }
+
+  .balao:after {
+    border-left: 0 solid transparent;
+    border-right: 0 solid transparent;
+    border-top: 0 solid #fefefe;
+  }
 }

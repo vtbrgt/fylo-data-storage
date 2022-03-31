@@ -15,40 +15,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Raleway:wght@400;700&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <div class="caixa-1">
-      <img class="logo" src="imagens/logo.svg" />
-      <div class="logos-menores">
-        <div class="caixa-2"><img src="imagens/icon-document.svg" /></div>
-        <div class="caixa-2"><img src="imagens/icon-folder.svg" /></div>
-        <div class="caixa-2"><img src="imagens/icon-upload.svg" /></div>
+    <div class="container">
+      <div class="caixa-1">
+        <img class="logo" src="imagens/logo.svg" />
+        <div class="logos-menores">
+          <div class="caixa-2"><img src="imagens/icon-document.svg" /></div>
+          <div class="caixa-2"><img src="imagens/icon-folder.svg" /></div>
+          <div class="caixa-2"><img src="imagens/icon-upload.svg" /></div>
+        </div>
       </div>
 
       <div class="caixa-3">
         <p class="armazenamento-usado">
           You’ve used <b>815 GB</b> of your storage
         </p>
-        <div class="barra-de-progresso"></div>
+        <div class="barra-de-progresso">
+          <div class="circulo"></div>
+        </div>
         <div class="contagem-armazenamento">
           <p>0GB</p>
           <p>1000GB</p>
         </div>
       </div>
+    </div>
 
-      <div class="balao">
-        <p id="texto-1">185</p>
-        <p class="texto-2">GB LEFT</p>
-      </div>
-
-      <!--<div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Vitor Borgatte</a>.-->
+    <div class="balao">
+      <p id="texto-1">185</p>
+      <p class="texto-2">GB LEFT</p>
     </div>
   </body>
 </html>
