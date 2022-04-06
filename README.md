@@ -10,7 +10,7 @@ Expandir meus conhecimentos de **CSS**.
 
 #### Projeto base:
 
-**Desktop** <br>
+**Desktop (1440px)** <br>
 <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/beiy7t7hcpdkhgc6ueho.jpg" alt="Projeto Base - Desktop" width="600"/> <br>
 **Mobile (375px)** <br>
 <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/qmogdxs9irrv5umyhwqi.jpg" alt="Projeto Base - Mobile" width="600"/>
