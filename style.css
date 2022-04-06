@@ -105,7 +105,7 @@ body {
   width: 180px;
   height: 70px;
   position: absolute;
-  top: 350px;
+  top: 335px;
   left: 955px;
   text-align: center;
   display: flex;
@@ -174,7 +174,7 @@ body {
   }
 
   .balao {
-    top: 465px;
+    top: 445px;
     left: 90px;
   }
 
