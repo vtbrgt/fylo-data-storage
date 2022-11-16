@@ -7,7 +7,7 @@
 
 Criação de uma página estática que mostre ao usuário quanto de armazenamento ele já usou e quanto ainda tem disponível. Usando challenge do [Frontend Mentor](https://www.frontendmentor.io/) como base. Criado com o intuito de expandir meus conhecimentos de **CSS**
 
-### Projeto base: 
+### Projeto base
 **Desktop (1440px)** <br>
 <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/beiy7t7hcpdkhgc6ueho.jpg" alt="Projeto Base - Desktop" width="600"/> <br>
 **Mobile (375px)** <br>
